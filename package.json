@@ -1,5 +1,5 @@
 {
-  "name": "codec",
+  "name": "@changyan/codec",
   "version": "0.0.1",
   "description": "A JavaScript codec aimed at both browser and nodejs",
   "main": "index.js",

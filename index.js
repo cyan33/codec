@@ -11,8 +11,9 @@
   let targetToSrc = {};
 
   function encode(src) {
+    let newKey;
     while (srcToTarget[src]) {
-      let newKey = Array(7).fill(1).reduce((accu, curr) => {
+      newKey = Array(7).fill(1).reduce((accu, curr) => {
         return accu + alphanumeic[Math.floor(Math.random() * alphanumeic.length)];
       }, '')
 
@@ -21,6 +22,7 @@
         targetToSrc[newKey] = src
       }
     }
+    return newKey;
   }
 
   function decode(key) {
