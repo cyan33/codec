@@ -14,13 +14,13 @@ npm install @changyan/codec
 Node,js:
 
 ```js
-const codec = require('codec');
+const codec = require('@changyan/codec');
 ```
 
 ES6:
 
 ```js
-import codec from 'codec';
+import codec from '@changyan/codec';
 ```
 
 In your code, try it out like this:
